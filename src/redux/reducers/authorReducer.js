@@ -1,5 +1,5 @@
-import * as types from '../actions/actionTypes';
-import initialState from './initialState';
+import * as types from "../actions/actionTypes";
+import initialState from "./initialState";
 
 export default function authorReducer(state = initialState.authors, action) {
   switch (action.type) {
@@ -8,5 +8,4 @@ export default function authorReducer(state = initialState.authors, action) {
     default:
       return state;
   }
-
 }
